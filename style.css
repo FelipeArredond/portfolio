@@ -1,0 +1,158 @@
+:root {
+    --bg-color: #120458;
+    --secondary-color: #ff124f;
+    --secondary-color-2: #ff00a0;
+    --font-mono: "Fira Code", monospace;
+    --navy: #0a192f;
+    --third-color: #7a04eb;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--font-mono);
+}
+
+header span {
+    cursor: pointer;
+}
+
+header {
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav ul .resume-button {
+    border: solid 1px var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+header nav ul li p {
+    padding: 2px;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    padding: 2px;
+    cursor: pointer;
+}
+
+header nav ul li p:hover {
+    color: var(--secondary-color-2);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-aside {
+    width: 5%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 100px;
+    left: 0px;
+    z-index: 10;
+}
+
+.media-aside ul {
+    list-style: none;
+}
+
+.media-aside li {
+    margin: 0 0 20px 0;
+}
+
+.media-aside li a {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.media-aside a:hover {
+    color: var(--secondary-color-2);
+}
+
+.main-content {
+    width: 60%;
+    margin: auto;
+}
+
+.mail-aside {
+    width: 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    rotate: 90deg;
+    height: 100px;
+    position: fixed;
+    bottom: 150px;
+    left: 95%;
+    z-index: 10;
+}
+
+.mail-aside:hover {
+    color: var(--secondary-color-2);
+}
+
+.my-profile {
+    text-align: start;
+    margin: 150px 0 0 0;
+}
+
+.my-profile::first-line {
+    color: var(--secondary-color);
+}
+
+.my-name {
+    color: white;
+    font-size: clamp(40px, 8vw, 80px);
+    margin: 0 0 0 -9px;
+}
+
+.my-little-desc {
+    color: var(--secondary-color);
+    font-size: clamp(40px, 8vw, 80px);
+    margin: 0 0 0 -9px;
+}
+
+.my-complete-desc {
+    color: rgb(165, 163, 163);
+    width: 30%;
+}
+
+.my-complete-desc span {
+    content: " Postobon.";
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.my-complete-desc span:hover {
+    content: " Postobon.";
+    color: var(--secondary-color-2);
+}
