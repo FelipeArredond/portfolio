@@ -46,7 +46,13 @@ header nav ul .resume-button {
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
+    transition: 0.5s;
 }
+
+header nav ul .resume-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 
 header nav ul li p {
     padding: 2px;
@@ -122,7 +128,7 @@ main {
 
 .my-profile {
     text-align: start;
-    margin: 150px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .my-profile::first-line {
@@ -155,4 +161,48 @@ main {
 .my-complete-desc span:hover {
     content: " Postobon.";
     color: var(--secondary-color-2);
+}
+
+.main-content{
+    cursor: default;
+}
+
+.mobile-header {
+    display: none;
+}
+
+#navButton {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        display: none;
+    }
+    .mobile-header{
+        color: var(--secondary-color);
+        text-align: center;
+    }
+    .fa-bars{
+        color: var(--secondary-color);
+        margin: 10px;
+        font-size: 40px;
+    }
+    .mobile-header nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+    }
+    .my-profile{
+        text-align: center;
+    }
+    .my-complete-desc{
+        text-align: center;
+        margin: 10 auto;
+        width: 100%;
+    }
+    .media-aside{
+        margin: 10px;
+    }
 }
