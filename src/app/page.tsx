@@ -1,24 +1,27 @@
-import { buttonVariants } from "@/components/ui/button";
+import { Chrome } from "@/components/portfolio/chrome";
+import { Hero } from "@/components/portfolio/hero";
+import { About } from "@/components/portfolio/about";
+import { Experience } from "@/components/portfolio/experience";
+import { Skills } from "@/components/portfolio/skills";
+import { Projects } from "@/components/portfolio/projects";
+import { OpenSource } from "@/components/portfolio/open-source";
+import { Contact } from "@/components/portfolio/contact";
+import { Footer } from "@/components/portfolio/footer";
+import { RevealScript } from "@/components/portfolio/reveal-script";
 
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col items-center justify-center px-6">
-      <main className="flex max-w-2xl flex-col items-center gap-8 text-center">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-          Felipe Arredondo
-        </h1>
-        <p className="text-lg text-muted-foreground">
-          Frontend Architect &bull; GDE &bull; MVP
-        </p>
-        <div className="flex gap-4">
-          <a href="#projects" className={buttonVariants({ variant: "default" })}>
-            Ver proyectos
-          </a>
-          <a href="#contact" className={buttonVariants({ variant: "outline" })}>
-            Contacto
-          </a>
-        </div>
-      </main>
+    <div className="page">
+      <Chrome />
+      <Hero />
+      <About />
+      <Experience />
+      <Skills />
+      <Projects />
+      <OpenSource />
+      <Contact />
+      <Footer />
+      <RevealScript />
     </div>
   );
 }
