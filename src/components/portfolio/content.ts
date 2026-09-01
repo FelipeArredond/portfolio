@@ -236,7 +236,7 @@ export const COPY: Record<Lang, Copy> = {
     ctaTitle: "Hablemos de tu proyecto — sin compromiso.",
     ctaSub:
       "Cuéntame qué necesitas y te digo con honestidad qué construiría, en cuánto tiempo y cuánto costaría. Respondo rápido.",
-    footer: "hecho a mano · Metamotor DS",
+    footer: "",
     seeMore: "ver detalle",
     dProblem: "el problema",
     dSolution: "la solución",
