@@ -294,14 +294,14 @@ export const COPY: Record<Lang, Copy> = {
       },
       {
         role: "Frontend Developer",
-        org: "Startup",
+        org: "Steeful",
         badge: "anterior",
         desc: "Desarrollador React dedicado: arquitectura de componentes, manejo de estado y UIs que sobreviven a usuarios reales.",
         chips: ["React", "JavaScript"],
       },
       {
         role: "Backend Engineer",
-        org: "Startup US",
+        org: "H2DV",
         badge: "primer rol",
         desc: "Primer rol profesional: servicios backend en Node.js + Express + MongoDB para una startup americana, en producción.",
         chips: ["Node.js", "Express", "MongoDB"],
