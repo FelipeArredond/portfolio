@@ -279,17 +279,9 @@ export const COPY: Record<Lang, Copy> = {
     ],
     exp: [
       {
-        role: "DevOps Engineer",
-        org: "Fintech",
-        badge: "actual",
-        current: true,
-        desc: "Diseño pipelines CI/CD, gestiono infraestructura AWS con CloudFormation e integro escaneos de seguridad al proceso de entrega.",
-        chips: ["AWS", "CloudFormation", "CI/CD", "IaC"],
-      },
-      {
         role: "Backend Engineer",
         org: "Bancolombia",
-        badge: "anterior",
+        badge: "actual",
         desc: "Servicios backend reactivos con Spring WebFlux y Django para uno de los bancos más grandes de Latinoamérica.",
         chips: ["Spring WebFlux", "Django", "Java", "Python"],
       },
